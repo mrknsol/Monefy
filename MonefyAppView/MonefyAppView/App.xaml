@@ -1,0 +1,30 @@
+﻿<Application x:Class="MonefyAppView.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:View="clr-namespace:MonefyAppView.Views"
+             xmlns:ViewModel="clr-namespace:MonefyAppView.ViewModels">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type ViewModel:WalletDataViewModel}">
+                <View:WalletData/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type ViewModel:CountOperationViewModel}">
+                <View:CountOperation/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type ViewModel:TransactionViewModel}">
+                <View:Transactions/>
+            </DataTemplate>
+
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

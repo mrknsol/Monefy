@@ -1,0 +1,570 @@
+﻿<UserControl x:Class="MonefyAppView.Views.WalletData"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:wp="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf" xmlns:local="clr-namespace:MonefyAppView.ViewModels" d:DataContext="{d:DesignInstance Type=local:WalletDataViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="700">
+
+    <UserControl.Resources>
+        <ControlTemplate x:Key="SlideMenuBtn" TargetType="Button">
+            <Grid Grid.Row="1" Grid.RowSpan="5" Grid.ColumnSpan="1">
+                <Border>
+                    <StackPanel>
+                        
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </ControlTemplate>
+    </UserControl.Resources>
+    
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <Border Background="#07BF96" Grid.Row="0" Grid.ColumnSpan="8">
+            <Grid>
+                <StackPanel Orientation="Horizontal">                    
+                    <ToggleButton Name="LeftMenuButton" Background="#07BF96" Width="60" Height="50" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}">
+                        <md:PackIcon Kind="Filter" Foreground="White" Width="50" Height="40" HorizontalAlignment="Center"/>
+                    </ToggleButton>
+                    <Label Content="Monefy" FontStyle="Oblique" FontSize="30" Foreground="White"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Background="#07BF96" Width="60" Height="50" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}">
+                        <md:PackIcon Kind="Search" Foreground="White" Width="40" Height="50" HorizontalAlignment="Center"/>
+                    </Button>
+                    <Button Background="#07BF96" Width="65" Height="50" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}">
+                        <md:PackIcon Kind="ArrowLeftRight" Foreground="White" Width="40" Height="50" HorizontalAlignment="Center"/>
+                    </Button>
+                    <ToggleButton Name="RightMenuButton" Background="#07BF96" Width="60" Height="50" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}">
+                        <md:PackIcon Kind="DotsVertical" Foreground="White" Width="40" Height="50" HorizontalAlignment="Center"/>
+                    </ToggleButton>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+
+        <Button Grid.Column="2" Command="{Binding ExitSaveCommand}">Exit</Button>
+        <Button Grid.Column="3" Command="{Binding LoadDatas}">Load</Button>
+        <Button Grid.Column="2" Grid.ColumnSpan="4" Grid.Row="1" Background="#07BF96" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}" Foreground="White"  >
+            <TextBlock Text="{Binding CurrentDate, StringFormat='dd-MM-yyyy'}"/>
+        </Button>
+        <Button
+            x:Name="Phone"
+            Grid.Row="3"
+            Grid.Column="2"
+            Width="80"
+            Height="80"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Foreground="LightGreen">
+
+            <md:PackIcon Kind="Phone" Width="30" Height="60" Foreground="LightGreen"/>
+        </Button>
+
+        <Button
+            Name="LocalCafe"
+            Grid.Row="4"
+            Grid.Column="2"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatButton}"
+            Foreground="Purple">
+
+            <md:PackIcon Kind="LocalCafe" Foreground="Purple" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Temperature"
+            Grid.Row="6"
+            Grid.Column="2"
+            Width="80"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+            Height="80"
+            Foreground="Red">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Red"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Temperature" Foreground="Red" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Gift"
+            Grid.Row="6"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+            Grid.Column="3"
+            Width="80"
+            Height="80"
+            Foreground="Blue">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Blue"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="Blue"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Gift" Foreground="Blue" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Car"
+            Grid.Row="5"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"       
+            Grid.Column="2"
+            Width="80"
+            Height="80"
+            Foreground="CornflowerBlue">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="CornflowerBlue"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="CornflowerBlue"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Car" Foreground="CornflowerBlue" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Dog"
+            Grid.Row="2"
+            Grid.Column="2"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Width="80"
+            Height="80"
+            Foreground="Orange">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Orange"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Dog" Foreground="Orange" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="House"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Grid.Row="6"
+            Grid.Column="4"
+            Width="80"
+            Height="80"
+            Foreground="Pink">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Pink"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="House" Foreground="Pink" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Restaurant"
+            Grid.Row="6"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Grid.Column="5"
+            Width="80"
+            Height="80"
+            Foreground="ForestGreen">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="ForestGreen"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Restaurant" Foreground="ForestGreen" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Food"
+            Grid.Row="2"
+            Grid.Column="3"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Width="80"
+            Height="80"
+            Foreground="MediumPurple">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="MediumPurple"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Food" Foreground="MediumPurple" Width="30" Height="60"/>
+        </Button>
+
+
+        <Button
+            x:Name="Beverages"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Grid.Row="2"
+            Grid.Column="4"
+            Width="80"
+            Height="80"
+            Foreground="DarkCyan">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="DarkCyan"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Beverages" Foreground="DarkCyan" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            x:Name="Clothes"
+            Grid.Row="2"
+            Grid.Column="5"
+            Width="80"
+            Height="80"
+            Foreground="LightCoral">
+
+            <Button.Resources>
+                <SolidColorBrush x:Key="SecondaryAccentBrush">LightCoral</SolidColorBrush>
+            </Button.Resources>
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="LightCoral"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="ClothesHanger" Foreground="LightCoral" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Taxi"
+            Grid.Row="5"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Grid.Column="5"
+            Width="80"
+            Height="80"
+            Foreground="Yellow">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Yellow"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Taxi" Foreground="Yellow" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            x:Name="Sport"
+            Grid.Row="3"
+            Grid.Column="5"
+            Width="80"
+            Height="80"
+            Foreground="DarkOrange">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="DarkOrange"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="YoutubeSports" Foreground="DarkOrange" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            x:Name="Toilet"
+            Command="{Binding OperationButton}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}" 
+            Grid.Row="4"
+            Grid.Column="5"
+            Width="80"
+            Height="80"
+            Foreground="CadetBlue">
+
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatAccentButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="CadetBlue"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <md:PackIcon Kind="Toilet" Foreground="CadetBlue" Width="30" Height="60"/>
+        </Button>
+
+        <Button
+            Grid.Row="1"
+            Width="80"
+            Height="50"
+            Background="#07BF96"
+            Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}"
+            Command="{Binding ChangeDateBack_Button}">
+            <md:PackIcon Kind="ArrowLeft" Foreground="White" Width="70" Height="50" HorizontalAlignment="Center"/>
+        </Button>
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="8"
+            Width="80"
+            Height="50"
+            Background="#07BF96"
+            Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}"
+            Command="{Binding ChangeDateForward_Button}">
+            <md:PackIcon Kind="ArrowRight" Foreground="White" Width="70" Height="50" HorizontalAlignment="Center"/>
+        </Button>
+
+
+        <wp:PieChart
+            x:Name="Diagram"
+            Grid.Row="3"
+            Grid.Column="3"
+            Grid.RowSpan="3"
+            Grid.ColumnSpan="2"
+            InnerRadius="0"
+            Content="{Binding Chart}">
+            <wp:PieChart.Series>
+                <wp:PieSeries Title="Transport" Values="7" DataLabels="True" Fill="Gray"/>
+                <!--<wp:PieSeries Title="Health" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Entertainments" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Gifts" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Connection" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Pets" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Clothes" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Meal" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Taxi" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Sport" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Cafe" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Hygiene" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Housing" Values="7" DataLabels="True"/>
+                <wp:PieSeries Title="Car" Values="7" DataLabels="True"/>-->
+            </wp:PieChart.Series>
+        </wp:PieChart>
+
+
+        <Border Grid.Row="7" Grid.ColumnSpan="8">
+            <Grid>
+                <Button Background="Transparent" Width="70" Height="50" HorizontalAlignment="Left" Margin="120 0 0 0" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}">
+                    <md:PackIcon Kind="Menu" Width="70" Height="50" HorizontalAlignment="Center" Foreground="Black"/>
+                </Button>
+
+                <Button Background="Transparent" Width="70" Height="50" HorizontalAlignment="Right" Margin="0 0 120 0" Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}">
+                    <md:PackIcon Kind="Menu" Width="70" Height="50" HorizontalAlignment="Center" Foreground="Black"/>
+                </Button>
+
+                <Button Content="{Binding ButtonContent}" Width="230" Background="#07BF96" FontSize="15" Command="{Binding TransactionNavigate}"/>
+
+
+            </Grid>
+        </Border>
+
+        <ContentControl Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="8"  Content="{Binding CurrentView, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Button x:Name="Minus" 
+                Grid.Row="8" 
+                Grid.Column="2" 
+                Width="70" 
+                Height="70" 
+                Style="{DynamicResource MaterialDesignFloatingActionSecondaryButton}" 
+                Background="Transparent" 
+                Command="{Binding OperationButton}" 
+                CommandParameter="{Binding RelativeSource={RelativeSource Self}}" >
+            <md:PackIcon Kind="Minus" Width="50" Height="70" Foreground="Red" />
+
+        </Button>
+        <Button x:Name="Plus"
+                Grid.Row="8" 
+                Grid.Column="5" 
+                Width="70" 
+                Height="70" 
+                Style="{DynamicResource MaterialDesignFloatingActionSecondaryButton}" 
+                Background="Transparent" 
+                Command="{Binding OperationButton}" 
+                CommandParameter="{Binding RelativeSource={RelativeSource Self}}">
+            <md:PackIcon Kind="Plus" Width="50" Height="70" Foreground="Green" />
+
+        </Button>
+        
+        <Grid Grid.Row="1" Grid.ColumnSpan="8" Grid.RowSpan="8" HorizontalAlignment="Left" >
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Width" Value="0"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=IsChecked, ElementName=LeftMenuButton}"
+                                     Value="true">
+                            <Setter Property="Width" Value="700"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Border Background="Black" Opacity="0.6"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="8" Grid.RowSpan="8" HorizontalAlignment="Right" >
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Width" Value="0"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=IsChecked, ElementName=RightMenuButton}"
+                             Value="true">
+                            <Setter Property="Width" Value="700"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Border Background="Black" Opacity="0.6"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="8" HorizontalAlignment="Left">
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Width" Value="0"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=IsChecked, ElementName=LeftMenuButton}"
+                                     Value="true">
+                            <Setter Property="Width" Value="210"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Border Background="#07BF96"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+
+                <Button  Content="Day"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+                <Button  Content="Week"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+                <Button  Content="Month"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+                <Button  Content="Year"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="6" Grid.RowSpan="8" HorizontalAlignment="Right">
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Width" Value="0"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=IsChecked, ElementName=RightMenuButton}"
+                             Value="true">
+                            <Setter Property="Width" Value="210"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Border Background="#07BF96" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+
+                <Button  Content="Categories"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+                <Button  Content="Accounts"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+                <Button  Content="Currencies"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+                <Button  Content="Settings"  Height="80" Foreground="White" Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</UserControl>

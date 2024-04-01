@@ -1,0 +1,298 @@
+﻿<UserControl x:Class="MonefyAppView.Views.CountOperation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewmodels="clr-namespace:MonefyAppView.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:CountOperationViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="700">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.ColumnSpan="4" Background="#07BF96">
+            <Grid>
+
+                <Button Width="100" 
+                            Background="Transparent" 
+                            Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}" 
+                            Foreground="White" 
+                            Content="Cancel"
+                            HorizontalAlignment="Left"
+                            Margin="-10 0 0 0"
+                            FontSize="20"
+                            Command="{Binding CancelCommand}"/>
+                <Label Content="New Income" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Foreground="White"
+                           FontSize="20"
+                           Margin="10 0 0 0"
+                           Width="120"/>
+                <Button Background="Transparent"
+                            Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}"
+                            Margin="30 0 0 0"
+                            HorizontalAlignment="Right"
+                            Width="100">
+                    <md:PackIcon Kind="ArrowLeftRight" 
+                                     Width="60"
+                                     Height="30"
+                                     VerticalAlignment="Center"
+                                     Foreground="White"/>
+                </Button>
+
+            </Grid>
+        </Border>
+
+        <TextBox Name="BalanceTextBox"
+                 Grid.Row="2" 
+                 Grid.Column="1" 
+                 Grid.ColumnSpan="2" 
+                 Background="Transparent" 
+                 Foreground="#07BF96" 
+                 FontSize="30"
+                 Style="{DynamicResource MaterialDesignOutlinedTextBox}"
+                 Text="{Binding CurrentText, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <TextBox Grid.Row="3"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 Background="Transparent" 
+                 Foreground="#07BF96" 
+                 FontSize="30"
+                 Style="{DynamicResource MaterialDesignTextBoxBase}"
+                 Text="{Binding CurrentNote, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            HorizontalAlignment="Center"
+            Grid.Row="4"
+            Command="{Binding Add}"
+            CommandParameter="1">
+            <md:PackIcon Kind="Number1" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="4"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="2">
+            <md:PackIcon Kind="Number2" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="4"
+            Grid.Column="2"
+            Command="{Binding Add}"
+            CommandParameter="3"
+            HorizontalAlignment="Center">
+            <md:PackIcon Kind="Number3" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            HorizontalAlignment="Center"
+            Grid.Row="5"
+            Command="{Binding Add}"
+            CommandParameter="4">
+            <md:PackIcon Kind="Number4" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="5"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="5">
+            <md:PackIcon Kind="Number5" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="5"
+            Grid.Column="2"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="6">
+            <md:PackIcon Kind="Number6" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="6"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="7">
+            <md:PackIcon Kind="Number7" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="6"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="8">
+            <md:PackIcon Kind="Number8" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="6"
+            Grid.Column="2"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="9">
+            <md:PackIcon Kind="Number9" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="7"
+            Grid.Column="1"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="0">
+            <md:PackIcon Kind="Number0" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button 
+    Width="80"
+    Height="80"
+    Style="{DynamicResource MaterialDesignFlatAccentButton}"
+    Grid.Row="4"
+    Grid.Column="3"
+    HorizontalAlignment="Center"
+    Command="{Binding Add}"
+    CommandParameter="+">
+            <md:PackIcon Kind="Plus" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button 
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="5"
+            Grid.Column="3"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="-">
+            <md:PackIcon Kind="Minus" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button 
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="6"
+            Grid.Column="3"
+            Command="{Binding Add}"
+            CommandParameter="*"
+            HorizontalAlignment="Center">
+            <md:PackIcon Kind="Multiplication" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button 
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="7"
+            Grid.Column="3"
+            HorizontalAlignment="Center"
+            Command="{Binding Add}"
+            CommandParameter="/">
+            <md:PackIcon Kind="Division" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button 
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="7"
+            Grid.Column="2"
+            HorizontalAlignment="Center"
+            Command="{Binding Equal}">
+            <md:PackIcon Kind="Equal" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+        <Button 
+            Width="80"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="7"
+            Grid.Column="0"
+            HorizontalAlignment="Center">
+            <md:PackIcon Kind="Dot" Width="50" Height="60" Foreground="#07BF96"/>
+        </Button>
+
+        <Button
+            x:Name="CategoryButton"
+            Height="80"
+            Style="{DynamicResource MaterialDesignFlatAccentButton}"
+            Grid.Row="8"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Content="Choose Category"
+            Foreground="#07BF96"
+            FontSize="25"
+            Command="{Binding AddElement}"
+            CommandParameter="{Binding RelativeSource={RelativeSource Self}}">
+        </Button>
+        <Button
+            Grid.Row="2"
+                Grid.Column="2"
+                Width="50"
+                HorizontalAlignment="Right"
+                Background="Transparent"
+                Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}"
+                Command="{Binding DeleteData}">
+            <md:PackIcon Kind="Backspace"
+                         Foreground="#07BF96"/>
+        </Button>
+
+        <!--<Button 
+            Name="DateButton"
+            Grid.Row="1" 
+            Grid.Column="1" 
+            Grid.ColumnSpan="2" 
+            Width="250" 
+            Background="Transparent" 
+            Style="{DynamicResource MaterialDesignFlatSecondaryLightButton}"
+            FontSize="20"
+            Foreground="Black"
+            Content="{Binding ButtonContent}"
+            Command="{Binding UpdateButtonText}">
+        </Button>-->
+        <DatePicker Background="Green" Style="{DynamicResource MaterialDesignFloatingHintDatePicker}" x:Name="datePicker" Grid.Row="1" 
+Grid.Column="1" 
+Grid.ColumnSpan="2" 
+Width="250" SelectedDate="{Binding SelectedPicker}"/>
+        <ContentControl Content="{Binding CurrentView, UpdateSourceTrigger=PropertyChanged}"/>
+    </Grid>
+</UserControl>

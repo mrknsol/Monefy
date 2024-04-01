@@ -1,0 +1,9 @@
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Monefy.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Monefy_MarkupCompile.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Monefy_MarkupCompile.lref

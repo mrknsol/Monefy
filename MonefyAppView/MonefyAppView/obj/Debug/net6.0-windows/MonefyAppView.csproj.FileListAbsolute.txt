@@ -1,0 +1,262 @@
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\kanan\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\kanan\OneDrive\Рабочий стол\finalapp\New folder (4)\New folder (2)\New folder (2)\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.exe
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.deps.json
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.runtimeconfig.json
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\bin\Debug\net6.0-windows\SimpleInjector.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.g.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.g.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.g.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.g.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.cache
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView_MarkupCompile.lref
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\App.baml
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\CountOperationView.baml
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\MainView.baml
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\TransactionsView.baml
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\Views\WalletDataView.baml
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.g.resources
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.AssemblyInfo.cs
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.csproj.CopyComplete
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\refint\MonefyAppView.dll
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.pdb
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\MonefyAppView.genruntimeconfig.cache
+C:\Users\user\OneDrive\Рабочий стол\MonefyAppView\MonefyAppView\obj\Debug\net6.0-windows\ref\MonefyAppView.dll
